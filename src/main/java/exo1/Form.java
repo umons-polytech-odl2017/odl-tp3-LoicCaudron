@@ -5,16 +5,21 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Form {
-	private JButton button1;
+	
 	private JPanel panel1;
+	private JRadioButton rectangleRadioButton;
+	private JRadioButton squareRadioButton;
+	private JRadioButton ellipsisRadioButton;
+	private JRadioButton circleRadioButton;
+	private JTextArea textArea1;
 	private JTextField textField1;
 	private JTextField textField2;
 
 	public Form() {
-		button1.addActionListener(new ActionListener() {
+		button1.addActionListener(new ActionListener() {      //On va écouter dès que quelqu'un dès que l'on appuie sur le bouton
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				textField2.setText(textField1.getText());
+
 			}
 		});
 	}
