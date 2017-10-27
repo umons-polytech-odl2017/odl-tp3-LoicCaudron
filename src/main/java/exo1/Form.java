@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Form {
-	
+
 	private JPanel panel1;
 	private JRadioButton rectangleRadioButton;
 	private JRadioButton squareRadioButton;
@@ -16,7 +16,29 @@ public class Form {
 	private JTextField textField2;
 
 	public Form() {
-		button1.addActionListener(new ActionListener() {      //On va écouter dès que quelqu'un dès que l'on appuie sur le bouton
+
+		rectangleRadioButton.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+
+			}
+		});
+
+		squareRadioButton.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+
+			}
+		});
+
+		ellipsisRadioButton.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+
+			}
+		});
+
+		circleRadioButton.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 
